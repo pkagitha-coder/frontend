@@ -6,7 +6,9 @@ const UsersList = props => {
   if (props.items.length === 0) {
     return (
       <div class="center">
-        <h2>No Users found</h2>
+        <card>
+          <h2>No Users found</h2>
+        </card>
       </div>
     );
   }
